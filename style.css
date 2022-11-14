@@ -91,7 +91,7 @@ i:hover {
     background-image: url('./images/showcase-bg.jpg');
     background-position: center center;
     background-size: cover;
-    height: 80vh;
+    height: 100vh;
     color: #fff;
     position: relative;
     display: flex;
@@ -166,6 +166,10 @@ i:hover {
 
 
 @media(min-width: 50em) {
+
+    .showcase{
+        height: 80vh;
+    }
 
     .showcase__content p{
         max-width: 50rem;
