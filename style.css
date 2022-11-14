@@ -82,7 +82,7 @@ section:not(.showcase) {
 }
 
 i:hover {
-    color:rgb(176, 40, 40);
+    color:#BA0D07;
 }
 
 /* Showcase section */
@@ -117,6 +117,11 @@ i:hover {
     text-align: center;
     font-size: 1.5rem;
     line-height: 1.1;
+}
+
+.showcase__content img {
+    width: 15rem;
+    background-color: #fff;
 }
 
 
@@ -159,7 +164,7 @@ i:hover {
     padding-block: 1rem;
     text-align: center;
     color: #fff;
-    background-color: rgb(92, 19, 19);
+    background-color: #BA0D07;
 }
 
 
